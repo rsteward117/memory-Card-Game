@@ -1,0 +1,14 @@
+#header{
+    background-color: black; opacity: 0.8;
+    width: 100vw;
+    height: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: orangered;
+}
+
+#middleSeaction img{
+    width: 20%;
+    display: block;
+    margin: auto;
+}
