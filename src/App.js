@@ -1,17 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from "./component/header";
-import DemonCards from "./component/demonCards"
+import GameLogic from "./component/gameLogic"
 function App() {
   return (
     <div>
-      <Header />
-      <DemonCards />
-      
-      
-      
-      
-      
+      <GameLogic />
     </div>
   );
 }

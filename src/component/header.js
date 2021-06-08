@@ -1,6 +1,7 @@
 import"./header.css"
 import doomSlayer from '../doomImgs/doomSlayer.png'
 const Header = (props) =>{
+    const {score, highestScore} = props
     return(
         <div id="header">
             <div id="leftSeaction">
@@ -11,8 +12,8 @@ const Header = (props) =>{
                 <img src={doomSlayer} />
             </div>
             <div id="rightSeaction">
-                <h3>Score: </h3>
-                <h3>Best Score: </h3>
+                <h3>Score:{score} </h3>
+                <h3>Best Score: {highestScore} </h3>
             </div>
         </div>
     ) 
